@@ -1,0 +1,184 @@
+/* Header */
+.main-nav {
+  background-color: #003566;
+}
+.main-nav .navbar-nav a.nav-link {
+  color: #fff;
+  font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link.active,
+.main-nav .navbar-nav .nav-link:hover {
+  color: #ffc300;
+}
+.navbar.scrolled {
+  background-color: #fff;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px -10px 30px #666;
+}
+.navbar.scrolled a.nav-link {
+  color: #666;
+}
+.navbar img.main-logo {
+  max-width: 250px;
+}
+.navbar-brand {
+  font-size: 10px;
+}
+
+/* Urus Izin*/
+.main-dropdown {
+  font-size: 13px;
+}
+
+/* Untuk Umum */
+.main-biru {
+  background-color: #003566;
+  color: #fff;
+  background-size: 100px;
+}
+.main-biru h1 span {
+  color: #ffc300;
+}
+.bg-warning {
+  color: #001d3d;
+}
+
+h2.main-judul::after {
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  border-bottom: 10px solid#ffc300;
+  width: 100px;
+  border-radius: 25px;
+  content: "";
+}
+.main-grey {
+  background-color: #f9f9f9;
+}
+.main-atas-judul {
+  color: #999;
+  font-size: 22px;
+  font-weight: 600;
+}
+.main-depan {
+  font-size: 30px;
+}
+/* Page 2 */
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #003566;
+}
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+/* Footer*/
+.main-footer-copyright {
+  background-color: #001d3d;
+  color: #fff;
+}
+
+/* Konten */
+.main-keterangan {
+  font-size: 14px;
+  margin-left: 27px;
+}
+
+/* WhatsApp */
+.wa-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  text-decoration: none;
+  color: black;
+  background-color: #38b000;
+  padding: 10px 20px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.wa-btn i {
+  font-size: 40px;
+  padding: 10 10px;
+  background-color: #38b000;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 102px;
+  color: #fff;
+}
+
+/* Layanan */
+.crop-img {
+  object-fit: cover;
+}
+
+/* Carousel */
+* {
+  font-family: montserrat;
+}
+.carousel-item {
+  height: 75vh;
+  min-height: 300px;
+}
+.carousel-caption {
+  bottom: 160px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+.carousel-caption a {
+  text-transform: uppercase;
+  text-decoration: none;
+  background: crimson;
+  padding: 5px 20px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+}
+.carousel-inner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+.w-100 {
+  height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+  .carousel-caption {
+    bottom: 50px;
+  }
+  .carousel-caption h5 {
+    font-size: 45px;
+  }
+  .carousel-item {
+    height: 60vh;
+  }
+}
